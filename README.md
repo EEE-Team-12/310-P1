@@ -36,7 +36,7 @@
 	- Note that you don't need to add the **`` <  >``** 
 
 	
-4 Run this command: **`` git clone git@github.com:EEE-Team-12/310-P1.git``**
+4. Run this command: **`` git clone git@github.com:EEE-Team-12/310-P1.git``**
 
 
 
