@@ -28,7 +28,7 @@ Consider you made changes to project folder (added file or edited files) and we 
 
 - first ,  you need to tell git what files you want to "upload online". We do this using **`` git add --all``** 
 
-the command **`` git add --all``** tells git that we want to **upload all edited and newly added files** into our project folder.
+the command **`` git add --all``** tells git that we want to **upload all edited and newly added files** into the team remote repository.
 
 - then , you need to add a label to this upload batch , for example , if I were to upload new images online , I would label them "uploaded new images". We can do this using **`` git commit -am "uploaded new images"``**
 
@@ -38,7 +38,7 @@ Notice that the text inside the **``" "``** will be contain the label for this u
 
 ###  summary ( git add ,  commit & push )
 
-- **`` git add --all``** , to tell what files to upload.
+- **`` git add --all``** , to tell git that we want to upload all edited and newly added files.
 - **`git commit -am " insert your label message here "`**  , to label the upload.
 - **`git push origin master`** , to click "send" to our online repository.
 
