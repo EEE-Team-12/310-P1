@@ -4,6 +4,8 @@
 
 **Note:** Engineering lab computers should already have git installed.
 
+**Note:** for steps 2-4  you can follow this [instead](https://www.youtube.com/watch?v=WgZIv5HI44o).
+
 **2.**  Go to desktop then press right click , you should see the following:
 
 ![opening git bash](Images/01_readme.PNG)
