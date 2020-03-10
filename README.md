@@ -1,56 +1,79 @@
-# Setting up Git (Windows)
+# Setting up git (Windows/Mac)
+
+**Important:** You have to do these steps for each device. For example , once for your laptop and once for uni computers. You only need to do this once for uni computers.
 
 **1.**  If you dont have **git** in your computer already you can download it from [here](https://git-scm.com/downloads).
 
 **Note:** Engineering lab computers should already have git installed.
 
-**Note:** for steps 2-4  you can follow this [instead](https://www.youtube.com/watch?v=WgZIv5HI44o).
+**2.** Please follow these tutorials:
+- [Mac](https://www.youtube.com/watch?v=8BLLShRqKd4) (3 mins)
+- [Windows](https://www.youtube.com/watch?v=WgZIv5HI44o) (3 mins)
 
-**2.**  Go to desktop then press right click , you should see the following:
+# Getting started with git 
 
-![opening git bash](Images/01_readme.PNG)
+There are 7 commands that we will mainly use for git.
+- clone 
+- add
+- commit 
+- push
+- pull
+- merge
+- branch 
+- checkout
 
-then click **Git Bash Here**. You should see the following:
+##  add , commit & push
 
-![git bash](Images/02_readme.PNG)
+Consider you made changes to project folder (added file or edited files) and we want to push these changes online for the team to see (kind of like uploading files onto google drive).
 
-**3.** On the on the git bash terminal , type this command **`` ssh-keygen ``**.
+- first ,  you need to tell git what files you want to "upload online". We do this using **`` git add --all``** 
 
-![generating the ssh key](Images/03_readme.PNG)
+the command **`` git add --all``** tells git that we want to **upload all edited and newly added files** into our project folder.
 
-press enter , then you should see the following:
+- then , you need to add a label to this upload batch , for example , if I were to upload new images online , I would label them "uploaded new images". We can do this using **`` git commit -am "uploaded new images"``**
 
-![generating ssh key](Images/04_readme.PNG)
+Notice that the text inside the **``" "``** will be contain the label for this upload batch.
 
-- press enter again. This time it will ask you to provide a **passphrase**. I recomend to make this passphrase short e.g. eee , lol , ez , asd ect...
+- next we **click "send"** (like when typing message on messenger then clicking send) except the message is files we want to upload and the destination is the online team repository (kinda like google drive) . We can do this using **`` git push origin master``**.
 
-![ssh pass phrase](Images/05_readme.PNG)
+###  summary ( git add ,  commit & push )
 
-once the **passphrase** is configured successfully you should see this.
+- **`` git add --all``** , to tell what files to upload.
+- **`git commit -am " insert your label message here "`**  , to label the upload.
+- **`git push origin master`** , to click "send" to our online repository.
 
-![success pass phrase](Images/06_readme.PNG)
 
-- then on the terminal , type this command **`` eval $(ssh-agent -s) ``** then press enter.
+## merge , branch , clone , checkout & pull
 
-- then type this command **`` ssh-add ~/.ssh/id_rsa``** then press enter. Then provide your passphrase. If successful you should see the following:
+TODO 
 
-![adding sshkey to agent](Images/08_readme.PNG)
 
-**4.** Go to [github](https://github.com/) , then log in to your account. 
 
-Once your logged in:
 
-- nagivate to settings in your account , located on top right.
-![adding ssh to git hub](Images/09_readme.PNG)
 
-- nagivate to **SSH and GPG keys** , then click ** New SSH Key**
-![read me png](Images/10_readme.PNG)
 
-- give title to ssh key , then paste the ssh key like so:
 
-![adding ssh to github](Images/11_readme.PNG)
 
-then press **add ssh key**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
