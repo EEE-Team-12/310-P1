@@ -1,4 +1,4 @@
-# Getting started on Git (Windows)
+# Setting up Git (Windows)
 
 **1.**  If you dont have **git** in your computer already you can download it from [here](https://git-scm.com/downloads).
 
