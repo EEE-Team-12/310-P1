@@ -16,7 +16,7 @@
 
 **Note:**  you only need to do this once/per device. You only need to do this once for uni computers.
 
-## Step 1
+### Step 1
 
 
 1. Copy file path of **Desktop**
@@ -40,7 +40,7 @@
 
 
 
-## Step 2
+### Step 2
 
 1. Copy the file path of the cloned project.
 
