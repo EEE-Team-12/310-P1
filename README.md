@@ -1,6 +1,6 @@
 # Getting started on Git (Windows)
 
-**1.**  If you dont have **git** in your computer already you can download it from [here]([https://git-scm.com/downloads](https://git-scm.com/downloads)).
+**1.**  If you dont have **git** in your computer already you can download it from [here](https://git-scm.com/downloads).
 
 **Note:** Engineering lab computers should already have git installed.
 
@@ -34,7 +34,7 @@ once the **passphrase** is configured successfully you should see this.
 
 ![adding sshkey to agent](Images/08_readme.PNG)
 
-**4.** Go to [github]([https://github.com/](https://github.com/)) , then log in to your account. 
+**4.** Go to [github](https://github.com/) , then log in to your account. 
 
 Once your logged in:
 
@@ -42,7 +42,7 @@ Once your logged in:
 ![adding ssh to git hub](Images/09_readme.PNG)
 
 - nagivate to **SSH and GPG keys** , then click ** New SSH Key**
-![read me png](Images/09_readme.PNG)
+![read me png](Images/10_readme.PNG)
 
 - give title to ssh key , then paste the ssh key like so:
 
