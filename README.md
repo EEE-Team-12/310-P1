@@ -14,6 +14,8 @@
 
 # Set up work environment
 
+**Important:** Only do these steps after completing the git set-up.
+
 **Note:**  you only need to do this once/per device. You only need to do this once for uni computers.
 
 ### Step 1
